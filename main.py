@@ -9,7 +9,7 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://aialarmclock.vercel.app"],  # Replace with your frontend URL in production
+    allow_origins=["https://alarm-clock-umber.vercel.app"],  # Replace with your frontend URL in production
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
