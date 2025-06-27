@@ -6,8 +6,8 @@
 # openai
 
 fastapi
-uvicorn[standard]
+uvicorn
 openai
 python-dotenv
 apscheduler
-dateparser  ← ✅ THIS IS MISSING
+dateparser  
