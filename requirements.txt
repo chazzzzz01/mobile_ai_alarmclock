@@ -1,6 +1,13 @@
 
+# fastapi
+# uvicorn
+# python-dotenv
+# apscheduler
+# openai
+
 fastapi
-uvicorn
+uvicorn[standard]
+openai
 python-dotenv
 apscheduler
-openai
+dateparser  ← ✅ THIS IS MISSING
